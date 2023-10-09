@@ -8,11 +8,3 @@ poster_column_label:
   default: "Author"
   description:
     en: "Text lable for the author or last poster column header."
-poster_column_location:
-  type: enum
-  default: default
-  choices:
-    - first
-    - last
-  description:
-    en: "Location of author or poster column on topic list pages."
