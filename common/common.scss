@@ -7,9 +7,13 @@ td.posters {
       span {
         visibility: hidden;
         &:before {
-          content: "Author";
+          content: "#{$poster_header_label}";
           visibility: visible;
         }
       }
     }
+}
+
+.topic-list .posters {
+    width: 70px;
 }
