@@ -1,4 +1,4 @@
-{{#if (theme-setting 'show_username_instead')}}
+{{#if (theme-setting 'show_author_username')}}
         <div class='hidden-avatar'></div>
         {{else}}
         <div class='pull-left'>
