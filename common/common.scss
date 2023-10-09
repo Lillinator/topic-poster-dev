@@ -7,7 +7,7 @@ td.posters {
       span {
         visibility: hidden;
         &:before {
-          content: "Creator";
+          content: "Author";
           visibility: visible;
         }
       }
