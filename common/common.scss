@@ -2,26 +2,7 @@ td.posters {
   display:none;
 }
 
-@if $show_poster_column_first {
 .topic-list-header {
-    .posters.topic-list-data {
-      span {
-        display: none;
-        }
-      }
-    .default.topic-list-data {
-      span {
-        &:before {
-          content: "#{$poster_column_label}";
-          visibility: visible;       
-        }
-      }
-    }
-  }
-}
-
-@else {
-  .topic-list-header {
     .posters.topic-list-data {
       span {
         visibility: hidden;
@@ -31,9 +12,7 @@ td.posters {
         }
       }
     }
-  }
 }
-
 
 .topic-list .posters {
     width: 70px;
