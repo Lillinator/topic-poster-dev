@@ -7,7 +7,7 @@ td.posters {
       span {
         visibility: hidden;
         &:before {
-          content: "#{$poster_header_label}";
+          content: "#{$poster_column_label}";
           visibility: visible;
         }
       }
