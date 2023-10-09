@@ -3,3 +3,8 @@ show_author_username:
   default: false
   description:
     en: "Show author usernames instead profile avatars in all topic list pages."
+poster_header_label:
+  type: string
+  default: "Author"
+  description:
+    en: "Text lable for the author or last poster column header."
