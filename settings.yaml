@@ -8,8 +8,3 @@ poster_column_label:
   default: "Author"
   description:
     en: "Text lable for the author column header."
-show_poster_column_first:
-  type: bool
-  default: false
-  description:
-    en: "Show author in the first column in all topic list pages."
