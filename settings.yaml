@@ -1,1 +1,8 @@
-
+author_column_location:
+  type: enum
+  default: default
+  choice:
+    - first
+    - last
+  description:
+    en: "Location of author column in all topic list pages."
