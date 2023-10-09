@@ -1,0 +1,3 @@
+{{#if showPosters}}
+  {{raw "topic-list-header-column" order='posters' forceName=(theme-i18n "author") }}
+{{/if}}
