@@ -1,7 +1,7 @@
 author_column_location:
   type: enum
   default: default
-  choice:
+  choices:
     - first
     - last
   description:
