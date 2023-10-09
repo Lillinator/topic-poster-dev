@@ -1,1 +1,1 @@
-{{~raw "topic-author-header" topic=context.topic location="after-main-link"}}
+{{~raw "topic-header-label" topic=context.topic location="after-main-link"}}
