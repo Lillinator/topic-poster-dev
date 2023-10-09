@@ -1,8 +1,5 @@
-author_column_location:
-  type: enum
-  default: default
-  choices:
-    - first
-    - last
+show_author_username:
+  type: bool
+  default: false
   description:
-    en: "Location of author column in all topic list pages."
+    en: "Show author usernames instead profile avatars in all topic list pages."
