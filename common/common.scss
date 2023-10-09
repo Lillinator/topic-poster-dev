@@ -2,7 +2,9 @@ td.posters {
   display:none;
 }
 
-.topic-list-header {
+@if $poster_column_placement == "first" {
+  
+  .topic-list-header {
     .posters.topic-list-data {
       span {
         visibility: hidden;
@@ -12,7 +14,9 @@ td.posters {
         }
       }
     }
+  }
 }
+
 
 .topic-list .posters {
     width: 70px;
