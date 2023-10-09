@@ -61,10 +61,6 @@
 
 {{~raw-plugin-outlet name="topic-list-after-main-link"}}
 
-{{#if showPosters}}
-  {{raw "list/posters-column" posters=topic.featuredUsers}}
-{{/if}}
-
 {{raw "list/posts-count-column" topic=topic}}
 
 {{#if showLikes}}
