@@ -1,3 +1,15 @@
 td.posters {
   display:none;
 }
+
+.topic-list-header {
+    .posters.topic-list-data {
+      span {
+        visibility: hidden;
+        &:before {
+          content: "Author";
+          visibility: visible;
+        }
+      }
+    }
+}
