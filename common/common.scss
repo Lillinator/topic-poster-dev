@@ -5,3 +5,11 @@ td.posters {
 .topic-list .posters {
     width: 70px;
 }
+
+.topic-list-header {
+    .posters.topic-list-data {
+      span {
+        visibility: hidden;
+      }
+    }
+  }
