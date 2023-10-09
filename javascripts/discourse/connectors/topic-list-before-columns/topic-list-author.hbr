@@ -1,3 +1,0 @@
-{{#if (eq (theme-setting "poster_column_location") "first")}}
- {{~raw "topic-author" topic=context.topic location="before-columns"}}
-{{/if}}
