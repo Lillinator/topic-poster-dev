@@ -1,1 +1,0 @@
-{{~raw "topic-author-header" topic=context.topic location="header-before"}}
