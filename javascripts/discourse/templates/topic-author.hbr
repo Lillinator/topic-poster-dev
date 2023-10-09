@@ -1,13 +1,9 @@
-    {{#if showParticipants}}
-      {{raw "list/posters-column" posters=topic.participants}}
+<td class='author topic-list-data'>
+  <a href="{{topic.creator.path}}" data-user-card="{{topic.creator.username}}">
+    {{#if (theme-setting 'show_author_username')}}
+      {{topic.creator.username}}
+    {{else}}
+      {{avatar topic.creator imageSize="45"}}
     {{/if}}
-
-    <td class='author topic-list-data'>
-      <a href="{{topic.creator.path}}" data-user-card="{{topic.creator.username}}">
-        {{#if (theme-setting 'show_author_username')}}
-          {{topic.creator.username}}
-          {{else}}
-          {{avatar topic.creator imageSize="45"}}
-        {{/if}}
-      </a>
-    </td>
+  </a>
+</td>
