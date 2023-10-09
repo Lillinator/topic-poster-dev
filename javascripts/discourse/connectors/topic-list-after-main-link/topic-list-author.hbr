@@ -1,1 +1,3 @@
- {{~raw "topic-author" topic=context.topic location="after-main-link"}}
+{{#unless (theme-setting "show_poster_column_first"}}
+{{~raw "topic-author" topic=context.topic location="after-main-link"}}
+{{/unless}}
