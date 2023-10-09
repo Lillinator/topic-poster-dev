@@ -1,1 +1,3 @@
-{{~raw "topic-author" topic=context.topic location="after-main-link"}}
+{{#if (eq (theme-setting "poster_column_location") "default")}}
+ {{~raw "topic-author" topic=context.topic location="after-main-link"}}
+{{/if}}
