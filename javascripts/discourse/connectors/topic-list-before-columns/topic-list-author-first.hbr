@@ -1,1 +1,3 @@
-
+{{#if (theme-setting "show_poster_column_first")}}
+{{~raw "topic-author" topic=context.topic location="before-columns"}}
+{{/if}}
