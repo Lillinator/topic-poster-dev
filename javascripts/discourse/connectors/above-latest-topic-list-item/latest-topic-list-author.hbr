@@ -1,1 +1,1 @@
-{{raw "latest-topic-author" topic=context.topic location="above-latest-topic-list-item"}}
+{{~raw "latest-topic-author" location="above-latest-topic-list-item"~}}
