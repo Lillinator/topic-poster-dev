@@ -1,0 +1,11 @@
+<script
+  type="text/x-handlebars"
+  data-template-name="components/latest-topic-author"
+>
+   <div class="topic-poster">
+    <UserLink @user={{this.topic.creator}}>
+      {{avatar this.topic.creator imageSize="large"}}
+    </UserLink>
+    <UserAvatarFlair @user={{this.topic.creator}} />
+   </div>
+</script>
