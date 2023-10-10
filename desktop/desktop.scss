@@ -2,18 +2,6 @@ td.posters {
   display:none;
 }
 
-.topic-list-header {
-    .posters.topic-list-data {
-      span {
-        visibility: hidden;
-        &:before {
-          content: "#{$poster_column_label}";
-          visibility: visible;
-        }
-      }
-    }
-}
-
 .topic-list .posters {
     width: 70px;
 }
