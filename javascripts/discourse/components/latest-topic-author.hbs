@@ -1,6 +1,6 @@
-<div class="topic-author" id="LatestTopicAuthor">
-  <UserLink @user={{this.topic.creator}}>
-    {{avatar this.topic.creator imageSize="large"}}
+<div class="topic-author">
+  <UserLink @user={{this.topic.lastPosterUser}}>
+    {{avatar this.topic.lastPosterUser imageSize="large"}}
   </UserLink>
-  <UserAvatarFlair @user={{this.topic.creator}} />
+  <UserAvatarFlair @user={{this.topic.lastPosterUser}} />
 </div>
