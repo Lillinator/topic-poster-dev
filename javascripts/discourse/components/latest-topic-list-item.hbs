@@ -3,11 +3,11 @@
   @connectorTagName="div"
   @outletArgs={{hash topic=this.topic}}
 />
-<div class="topic-poster">
-  <UserLink @user={{this.topic.lastPosterUser}}>
-    {{avatar this.topic.lastPosterUser imageSize="large"}}
-  </UserLink>
-  <UserAvatarFlair @user={{this.topic.lastPosterUser}} />
+<div class="topic-author">
+    <UserLink @user={{this.topic.creator}}>
+      {{avatar this.topic.creator imageSize="large"}}
+    </UserLink>
+    <UserAvatarFlair @user={{this.topic.creator}} />
 </div>
 <div class="main-link">
   <div class="top-row">
